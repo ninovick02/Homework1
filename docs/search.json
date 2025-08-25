@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "HW1.html",
+    "href": "HW1.html",
+    "title": "Data Science in R",
+    "section": "",
+    "text": "What is being a data scientist about? What is the difference between a data scientist and a statistician? - List the differences How do I view myself in relation between the two areas?"
+  },
+  {
+    "objectID": "HW1.html#data-science",
+    "href": "HW1.html#data-science",
+    "title": "Data Science in R",
+    "section": "",
+    "text": "What is being a data scientist about? What is the difference between a data scientist and a statistician? - List the differences How do I view myself in relation between the two areas?"
+  },
+  {
+    "objectID": "HW1.html#running-code",
+    "href": "HW1.html#running-code",
+    "title": "Data Science in R",
+    "section": "Running Code",
+    "text": "Running Code\nCreating new object y to store the density of the Petal width data within the built-in data set Iris.\n\ny &lt;- density(iris$Petal.Width)\n\nDetermining the class, type of, and structure of the object y\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nWe can see that y has the class of density and it is a list of seven variables.\nPlotting y\n\n\n\n\n\nThe density of iris petal width is plotted."
+  }
+]

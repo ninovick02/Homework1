@@ -1,0 +1,40 @@
+---
+title: "Data Science in R"
+author: "Naomi Novick"
+format: html
+editor: visual
+---
+
+## Data Science
+
+What is being a data scientist about?
+What is the difference between a data scientist and a statistician?
+- List the differences
+How do I view myself in relation between the two areas?
+
+## Running Code
+
+Creating new object y to store the density of the Petal width data within the built-in data set Iris.
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Determining the class, type of, and structure of the object y
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+We can see that y has the class of density and it is a list of seven variables.
+
+Plotting y
+
+```{r}
+#| echo: false
+plot(y)
+```
+
+The density of iris petal width is plotted.
