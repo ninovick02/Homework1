@@ -7,10 +7,24 @@ editor: visual
 
 ## Data Science
 
-What is being a data scientist about?
-What is the difference between a data scientist and a statistician?
-- List the differences
-How do I view myself in relation between the two areas?
+#### What is being a data scientist about?
+
+A data scientist is someone who can manage, manipulate, and analyze data and communicate their results effectively. Essentially they can extract useful information from data.
+
+Data scientists possess some combination of the skills of data engineering, analysis, and modeling. Data engineering focuses creating a system for the environment, management, and production of data. Data analysts use their knowledge of their field to find correlations that make sense and advance their research goals. They then present their finding to their audience. Modeling is much like analysis, but it uses data to predict future events and can conclude causation. This is track typically involves a machine learning model and/or experimental trials.
+
+#### What is the difference between a data scientist and a statistician?
+
+Both statisticians and data scientists work closely with data, but there are some difference to their positions
+
+-   Statisticians mainly focus on modeling the data whereas data scientists focus on the business problem and results
+-   Statisticians bring data to model whereas data scientists bring models to data
+-   The data for statisticians is usually small, clean, and structured whereas the data for data scientists is usually large and messy and can be unstructured
+-   Statisticians are usually isolated from the production system whereas data scientists are embedded.
+
+#### How do I view myself in relation between the two areas?
+
+I view myself as a future statistician using some tools of data science.
 
 ## Running Code
 
